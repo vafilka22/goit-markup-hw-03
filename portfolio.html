@@ -19,35 +19,53 @@
   </head>
 
   <body>
-    <header class="page-header">
-      <nav>
-        <a class="logo" href=""> <span class="accent-logo">Web</span>Studio</a>
+    <header class="header">
+      <div class="container">
+        <nav class="header-nav">
+          <a class="logo" href="">
+            <span class="accent-logo">Web</span>Studio</a
+          >
 
-        <ul class="site-nav">
-          <li><a class="link" href="./index.html">Студия</a></li>
-          <li><a class="link" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="link" href="">Контакты</a></li>
-        </ul>
-      </nav>
-      <ul class="adres">
-        <li><a class="adres link" href="">info@devstudio.com</a></li>
-        <li><a class="adres link'" href="">+38 096 111 11 11</a></li>
-      </ul>
+          <ul class="site-nav">
+            <li class="header-item">
+              <a class="link" href="./index.html">Студия</a>
+            </li>
+            <li class="header-item">
+              <a class="link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="header-item">
+              <a class="link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-connect">
+          <ul class="adres">
+            <li class="contact">
+              <a class="adres link" href="">info@devstudio.com</a>
+            </li>
+            <li class="contact">
+              <a class="adres link" href="">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
     <main>
       <!-- меню кнопок-->
-      <section>
-        <ul>
-          <li><button class="button-tap" type="button">Все</button></li>
-          <li><button class="button-tap" type="button">Веб-сайты</button></li>
-          <li><button class="button-tap" type="button">Приложения</button></li>
-          <li><button class="button-tap" type="button">Дизайн</button></li>
-          <li><button class="button-tap" type="button">Маркетинг</button></li>
-        </ul>
-
+      <section class="section">
+        <div class="container">
+         <ul class="menu-button">
+          <li class="btn"><button class="button-tap" type="button">Все</button></li>
+          <li class="btn"><button class="button-tap" type="button">Веб-сайты</button></li>
+          <li class="btn"><button class="button-tap" type="button">Приложения</button></li>
+          <li class="btn"><button class="button-tap" type="button">Дизайн</button></li>
+          <li class="btn"><button class="button-tap" type="button">Маркетинг</button></li>
+         </ul>
+       </div>
         <!--меню зображень -->
 
-        <ul>
+        <ul class="menu-picture">
+          <div class="container">
           <li>
             <img src="./images/8.jpg" alt="компютер" width="370" />
             <h3 class="subject">Технокряк</h3>
@@ -94,29 +112,32 @@
             <p class="text-subject">Приложение</p>
           </li>
         </ul>
-      </section>
+      </div>
+    </section>
 
       <footer class="footer">
-        <a class="logo-footer" href="">
-          <span class="accent-logo">Web</span>Studio</a
-        >
-        <address>
-          <ul class="address">
-            <li>
-              <a class="address-map link" href=""
-                >г. Киев, пр-т Леси Украинки, 26</a
-              >
-            </li>
+        <div class="container">
+          <a class="logo-footer" href="">
+            <span class="accent-logo">Web</span>Studio</a
+          >
+          <address>
+            <ul class="address">
+              <li class="streat">
+                <a class="address-map link" href=""
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
 
-            <li>
-              <a class="address link" href="">info@devstudio.com</a>
-            </li>
+              <li class="streat">
+                <a class="address link" href="">info@devstudio.com</a>
+              </li>
 
-            <li>
-              <a class="address link" href="">+38 096 111 11 11</a>
-            </li>
-          </ul>
-        </address>
+              <li class="streat">
+                <a class="address link" href="">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
       </footer>
     </main>
   </body>

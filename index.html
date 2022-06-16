@@ -19,29 +19,41 @@
   </head>
   <body>
     <!-- Шапка профіля -->
-    <header class="page-header">
+    <header class="header">
       <div class="container">
-        <nav>
+        <nav class="header-nav">
           <a class="logo" href="">
             <span class="accent-logo">Web</span>Studio</a
           >
 
           <ul class="site-nav">
-            <li><a class="link" href="./index.html">Студия</a></li>
-            <li><a class="link" href="./portfolio.html">Портфолио</a></li>
-            <li><a class="link" href="">Контакты</a></li>
+            <li class="header-item">
+              <a class="link" href="./index.html">Студия</a>
+            </li>
+            <li class="header-item">
+              <a class="link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="header-item">
+              <a class="link" href="">Контакты</a>
+            </li>
           </ul>
         </nav>
-        <ul class="adres">
-          <li><a class="adres link" href="">info@devstudio.com</a></li>
-          <li><a class="adres link" href="">+38 096 111 11 11</a></li>
-        </ul>
+        <div class="header-connect">
+          <ul class="adres">
+            <li class="contact">
+              <a class="adres link" href="">info@devstudio.com</a>
+            </li>
+            <li class="contact">
+              <a class="adres link" href="">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
       <!-- заголовок -->
 
-      <section class="hero">
+      <section class="hero section">
         <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
           <button class="button" type="button">Заказать услугу</button>
@@ -49,31 +61,31 @@
       </section>
 
       <!-- характеристики -->
-      <section class="basic">
+      <section class="basic section">
         <div class="container">
-          <ul>
-            <li>
+          <ul class="basic-list">
+            <li class="basic-item">
               <h2 class="basic-title">Внимание к деталям</h2>
               <p class="text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li>
+            <li class="basic-item">
               <h2 class="basic-title">Пунктуальность</h2>
               <p class="text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="basic-item">
               <h2 class="basic-title">Планирование</h2>
               <p class="text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="basic-item">
               <h2 class="basic-title">Современные технологии</h2>
               <p class="text">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -85,11 +97,11 @@
       </section>
 
       <!-- робота -->
-      <section class="work">
+      <section class="work work-section-pading">
         <div class="container">
           <h2 class="work-title">Чем мы занимаемся</h2>
-          <ul>
-            <li>
+          <ul class="our-work">
+            <li class="works">
               <a href=""
                 ><img
                   src="./images/5.jpg"
@@ -98,7 +110,7 @@
                 />
               </a>
             </li>
-            <li>
+            <li class="works">
               <a href="">
                 <img
                   src="./images/6.jpg"
@@ -107,7 +119,7 @@
                 />
               </a>
             </li>
-            <li>
+            <li class="works">
               <a href="">
                 <img src="./images/7.jpg" alt="планшет" width="370"
               /></a>
@@ -117,11 +129,11 @@
       </section>
 
       <!-- команда -->
-      <section class="team">
+      <section class="team section">
         <div class="container">
           <h2 class="team-title">Наша команда</h2>
-          <ul>
-            <li>
+          <ul class="team">
+            <li class="team-list">
               <img
                 src="./images/1.jpg"
                 alt="фото русявого чоловіка в окулярах"
@@ -131,13 +143,13 @@
               <p class="caption-title">Product Designer</p>
             </li>
 
-            <li>
+            <li class="team-list">
               <img src="./images/2.jpg" alt="фото жінки" width="270" />
               <h3 class="caption">Ольга Репина</h3>
               <p class="caption-title">Frontend Developer</p>
             </li>
 
-            <li>
+            <li class="team-list">
               <img
                 src="./images/3.jpg"
                 alt="фото русявого чоловіка"
@@ -147,7 +159,7 @@
               <p class="caption-title">Marketing</p>
             </li>
 
-            <li>
+            <li class="team-list">
               <img
                 src="./images/4.jpg"
                 alt="фото чорнявого чоловіка в окулярах"
@@ -168,17 +180,17 @@
           >
           <address>
             <ul class="address">
-              <li>
+              <li class="streat">
                 <a class="address-map link" href=""
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
 
-              <li>
+              <li class="streat">
                 <a class="address link" href="">info@devstudio.com</a>
               </li>
 
-              <li>
+              <li class="streat">
                 <a class="address link" href="">+38 096 111 11 11</a>
               </li>
             </ul>

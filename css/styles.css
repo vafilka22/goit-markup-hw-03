@@ -39,7 +39,18 @@ ul {
   margin: 0;
   padding-left: 0;
 }
+.container {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 
+  /*outline: 2px solid rebeccapurple;*/
+}
+
+.section {
+  padding: 94px 0px;
+}
 /* шапка профіля */
 
 .logo {
@@ -64,6 +75,32 @@ ul {
 .site-nav {
   display: flex;
 }
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.adres {
+  display: flex;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+}
+.header-connect {
+  margin-left: auto;
+}
+.contact {
+  margin-right: 50px;
+}
+.logo {
+  margin-right: 93px;
+}
+.header-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .link {
   color: var(--title-text-color);
   font-weight: 500;
@@ -78,28 +115,29 @@ ul {
   color: var(--accent-color);
 }
 
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-right: auto;
-  margin-left: auto;
-
-  outline: 2px solid #f44336;
-}
 /* заголовок */
 
 .hero {
   background: #2f303a;
 }
 .hero-title {
+  display: block;
+  text-align: center;
+  max-width: 696px;
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 }
 .button {
+  display: block;
+  min-width: 200px;
+  height: 50px;
+  border: inherit;
+  border-radius: 4px;
   background: var(--accent-color);
   color: var(--primary-white-color);
   font-weight: 700;
@@ -107,18 +145,21 @@ ul {
   line-height: 1.8;
   font-family: Roboto, sans-serif;
   cursor: pointer;
-}
-
-.container {
-  max-width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-
-  outline: 2px solid rebeccapurple;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* характеристики */
+
+.basic-list {
+  display: flex;
+}
+.basic-item {
+  max-width: 270px;
+}
+.basic-item:not(:last-child) {
+  margin-right: 30px;
+}
 
 .basic-title {
   font-weight: 700;
@@ -133,31 +174,60 @@ ul {
   line-height: 1.7;
 }
 /* робота */
+.work-section-pading {
+  padding-bottom: 94px;
+}
+
 .work-title {
+  display: block;
+  text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   color: var(--title-text-color);
+  margin-bottom: 50px;
+}
+.our-work {
+  display: flex;
+}
+.works:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* команда */
+.team {
+  display: flex;
+  background-color: #f5f4fa;
+}
 
+.team-list:not(:last-child) {
+  margin-right: 30px;
+}
 .team-title {
+  display: block;
+  text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.7;
   color: var(--title-text-color);
+  margin-bottom: 50px;
 }
 .caption {
+  display: block;
+  text-align: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
   color: var(--title-text-color);
+  margin-top: 30px;
 }
 .caption-title {
+  display: block;
+  text-align: center;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
+  margin-top: 10px;
 }
 
 /* футер */
@@ -171,6 +241,7 @@ ul {
   font-size: 26px;
   line-height: 1.8;
   color: var(--primary-white-color);
+  margin-top: 60px;
 }
 .address {
   color: rgba(255, 255, 255, 0.6);
@@ -178,8 +249,12 @@ ul {
   font-size: 14px;
   line-height: 1.7;
   font-style: normal;
+  margin-top: 20px;
+  margin-bottom: 60px;
 }
-
+.streat {
+  max-width: 231px;
+}
 .address-map {
   color: var(--primary-white-color);
 }
@@ -189,14 +264,35 @@ ul {
 
 /*Портфоліо*/
 
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
 /* меню кнопок */
+.menu-button {
+  display: flex;
+  align-items: center;
+  max-width: 611px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn:not(:last-child) {
+  margin-right: 8px;
+}
 .button-tap {
   color: var(--title-text-color);
   cursor: pointer;
+  min-width: 84px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   font-family: Roboto, sans-serif;
+  padding: 6px 22px;
+  border-radius: 4px;
+  border: inherit;
+  background-color: Solid #f5f4fa;
+  margin-bottom: 34px;
 }
 .button-tap:hover,
 .button-tap:focus {
@@ -205,6 +301,11 @@ ul {
 }
 
 /* меню зображень */
+
+.menu-picture {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
 .subject {
   color: var(--title-text-color);
   font-weight: 700;
