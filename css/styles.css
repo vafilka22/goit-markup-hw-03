@@ -308,6 +308,7 @@ ul {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
+  border: 1px solid #ececec;
 }
 .element:nth-child(3n) {
   margin-right: 0;
@@ -321,9 +322,11 @@ ul {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  margin: 20px 24px;
 }
 .text-subject {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.8;
+  margin: 20px 24px;
 }
