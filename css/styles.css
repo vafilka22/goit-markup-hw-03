@@ -81,14 +81,13 @@ ul {
 
 .adres {
   display: flex;
+  margin-left: auto;
 }
 .header .container {
   display: flex;
   align-items: center;
 }
-.header-connect {
-  margin-left: auto;
-}
+
 .contact {
   margin-right: 50px;
 }
@@ -117,7 +116,10 @@ ul {
 
 .hero {
   background: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
+
 .hero-title {
   display: block;
   text-align: center;
@@ -189,6 +191,12 @@ ul {
 .our-work {
   display: flex;
 }
+
+.works {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .works:not(:last-child) {
   margin-right: 30px;
 }
@@ -201,6 +209,14 @@ ul {
 
 .team-list:not(:last-child) {
   margin-right: 30px;
+}
+
+.team-list {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  border-radius: 3px;
 }
 .team-title {
   display: block;
@@ -218,7 +234,7 @@ ul {
   font-size: 16px;
   line-height: 1.2;
   color: var(--title-text-color);
-  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .caption-title {
   display: block;
@@ -226,13 +242,18 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
-  margin-top: 10px;
 }
 
+.name {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 /* футер */
 
 .footer {
   background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .logo-footer {
   font-family: Raleway;
@@ -240,7 +261,7 @@ ul {
   font-size: 26px;
   line-height: 1.8;
   color: var(--primary-white-color);
-  margin-top: 60px;
+  margin-bottom: 20px;
 }
 .address {
   color: rgba(255, 255, 255, 0.6);
@@ -248,11 +269,15 @@ ul {
   font-size: 14px;
   line-height: 1.7;
   font-style: normal;
-  padding-top: 20px;
-  padding-bottom: 60px;
+  margin-top: 20px;
 }
 .streat {
   max-width: 231px;
+  margin-bottom: 9px;
+}
+
+.streat:not(:last-child) {
+  margin-bottom: 9px;
 }
 .address-map {
   color: var(--primary-white-color);
@@ -270,10 +295,8 @@ ul {
 /* меню кнопок */
 .menu-button {
   display: flex;
-  align-items: center;
-  max-width: 611px;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 .btn:not(:last-child) {
@@ -291,7 +314,6 @@ ul {
   border-radius: 4px;
   border: inherit;
   background-color: Solid #f5f4fa;
-  margin-bottom: 50px;
 }
 .button-tap:hover,
 .button-tap:focus {
@@ -308,7 +330,6 @@ ul {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
-  border: 1px solid #ececec;
 }
 .element:nth-child(3n) {
   margin-right: 0;
@@ -322,11 +343,18 @@ ul {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  margin: 20px 24px;
+  margin-bottom: 20px;
 }
 .text-subject {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.8;
-  margin: 20px 24px;
+}
+
+.name-picture {
+  padding-right: 24px;
+  padding-left: 24px;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
