@@ -89,6 +89,11 @@ ul {
 }
 
 .contact {
+  display: block;
+  margin-right: 50px;
+}
+
+.contact:not(:last-child) {
   margin-right: 50px;
 }
 .logo {
@@ -192,7 +197,7 @@ ul {
   display: flex;
 }
 
-.works {
+.photo {
   display: block;
   max-width: 100%;
   height: auto;
@@ -234,7 +239,7 @@ ul {
   font-size: 16px;
   line-height: 1.2;
   color: var(--title-text-color);
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .caption-title {
   display: block;
@@ -256,6 +261,7 @@ ul {
   padding-bottom: 60px;
 }
 .logo-footer {
+  display: block;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -269,9 +275,9 @@ ul {
   font-size: 14px;
   line-height: 1.7;
   font-style: normal;
-  margin-top: 20px;
 }
 .streat {
+  display: block;
   max-width: 231px;
   margin-bottom: 9px;
 }
@@ -343,7 +349,7 @@ ul {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  margin-bottom: 20px;
+  margin-bottom: 4px;
 }
 .text-subject {
   font-weight: 400;
@@ -354,6 +360,8 @@ ul {
 .name-picture {
   padding-right: 24px;
   padding-left: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
