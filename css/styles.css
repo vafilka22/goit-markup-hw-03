@@ -90,7 +90,6 @@ ul {
 
 .contact {
   display: block;
-  margin-right: 50px;
 }
 
 .contact:not(:last-child) {
@@ -275,11 +274,6 @@ ul {
   font-size: 14px;
   line-height: 1.7;
   font-style: normal;
-}
-.streat {
-  display: block;
-  max-width: 231px;
-  margin-bottom: 9px;
 }
 
 .streat:not(:last-child) {
