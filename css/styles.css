@@ -49,6 +49,11 @@ ul {
 .section {
   padding: 94px 0px;
 }
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 /* шапка профіля */
 
 .logo {
@@ -128,6 +133,7 @@ ul {
   display: block;
   text-align: center;
   max-width: 696px;
+  text-transform: uppercase;
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
@@ -196,11 +202,6 @@ ul {
   display: flex;
 }
 
-.photo {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
 .works:not(:last-child) {
   margin-right: 30px;
 }
